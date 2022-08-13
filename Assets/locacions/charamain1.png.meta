@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 526079512e340b943aee53cfe76919e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3395885279819514541
+    second: charamain1_0
+  - first:
+      213: 7238869400161543583
+    second: charamain1_1
+  - first:
+      213: -3242396811697144846
+    second: charamain1_2
+  - first:
+      213: 1312824102782981220
+    second: charamain1_3
+  - first:
+      213: 3044206054387401606
+    second: charamain1_4
+  - first:
+      213: -5756568330502272699
+    second: charamain1_5
+  - first:
+      213: -7910906665991126193
+    second: charamain1_6
+  - first:
+      213: 3259041696048193114
+    second: charamain1_7
+  - first:
+      213: -130031156089194674
+    second: charamain1_8
+  - first:
+      213: 7770434434177294268
+    second: charamain1_9
+  - first:
+      213: -3513340767493063772
+    second: charamain1_10
+  - first:
+      213: -5853051544209883544
+    second: charamain1_11
+  - first:
+      213: 8641849828835915041
+    second: charamain1_12
+  - first:
+      213: 3641423940754199074
+    second: charamain1_13
+  - first:
+      213: 1028071229884912843
+    second: charamain1_14
+  - first:
+      213: 6343186385983810151
+    second: charamain1_15
+  - first:
+      213: 762652452432871379
+    second: charamain1_16
+  - first:
+      213: 8318570505747816187
+    second: charamain1_17
+  - first:
+      213: 8422161754518777181
+    second: charamain1_18
+  - first:
+      213: 4496443247705392207
+    second: charamain1_19
+  - first:
+      213: 729012205382887050
+    second: charamain1_20
+  - first:
+      213: -7190685320358465584
+    second: charamain1_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: charamain1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3939
+        width: 176
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90768f5e6e61d8b4a993991db8adc137
+      internalID: -3395885279819514541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3976
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9c2bee0cdc6c4499b6e2caaf60f3e
+      internalID: 7238869400161543583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3953
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a6a32ea8e5a44ca56536297609bd0
+      internalID: -3242396811697144846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3931
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6579e7d8e153044fb4c73121801c94c
+      internalID: 1312824102782981220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 3976
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b2e320c9fe2534db9cddf375549bde
+      internalID: 3044206054387401606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3976
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f0c4a600dbf7b499c2e790f098f9fd
+      internalID: -5756568330502272699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3975
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a1605cf215b94409d6b69ec00a7028
+      internalID: -7910906665991126193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3972
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbd0150cbb85494fbe94816e15e7f1d
+      internalID: 3259041696048193114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3975
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68ec8dac0c449d4fb3968d865b557d2
+      internalID: -130031156089194674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3956
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7041c5277d13ff743bd1b212fd13dd39
+      internalID: 7770434434177294268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 3956
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5faf6a4fd1f7d4eb968e26374f22f5
+      internalID: -3513340767493063772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3932
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c2935f60c07ed4b897369f67f21bb3
+      internalID: -5853051544209883544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3903
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57acb5ff161000c46a2ba48745645985
+      internalID: 8641849828835915041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3962
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f26224146b29647a0cd77e6b7c478d
+      internalID: 3641423940754199074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3992
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324b59f6118b9e44aa8eae813dd1680
+      internalID: 1028071229884912843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3980
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d85504a783655468b599a11d048f0c
+      internalID: 6343186385983810151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3857
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea43e76a3d4e97409b16064c0affa0e
+      internalID: 762652452432871379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3838
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471376c6f8132ad4a9a88c17a376a8cc
+      internalID: 8318570505747816187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3821
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcbe75d8bb44f24aa47eddff01bd54e
+      internalID: 8422161754518777181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3796
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53382148dab6bc4c9b461ad8c535804
+      internalID: 4496443247705392207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3769
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71956ee84733b0543a60f7487e3b14c4
+      internalID: 729012205382887050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charamain1_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3743
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaece9602bf99c4298a40c08e469a8c
+      internalID: -7190685320358465584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      charamain1_9: 7770434434177294268
+      charamain1_13: 3641423940754199074
+      charamain1_4: 3044206054387401606
+      charamain1_17: 8318570505747816187
+      charamain1_5: -5756568330502272699
+      charamain1_16: 762652452432871379
+      charamain1_19: 4496443247705392207
+      charamain1_20: 729012205382887050
+      charamain1_6: -7910906665991126193
+      charamain1_7: 3259041696048193114
+      charamain1_12: 8641849828835915041
+      charamain1_14: 1028071229884912843
+      charamain1_15: 6343186385983810151
+      charamain1_0: -3395885279819514541
+      charamain1_21: -7190685320358465584
+      charamain1_3: 1312824102782981220
+      charamain1_1: 7238869400161543583
+      charamain1_10: -3513340767493063772
+      charamain1_18: 8422161754518777181
+      charamain1_2: -3242396811697144846
+      charamain1_11: -5853051544209883544
+      charamain1_8: -130031156089194674
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
