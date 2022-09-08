@@ -24,6 +24,7 @@ public class deldialog : MonoBehaviour
     public bool startActivate;
     public string[] animationsnames; 
     public int cur;
+    public int deletedchar;
 
 
     void Start()
@@ -58,6 +59,7 @@ public class deldialog : MonoBehaviour
             tic += 1 * Time.deltaTime;
             if (tic >= 0.1f)
             {
+                NewMethod(sm, s);
                 if (s.Length > tir2)
                 {
 
@@ -73,103 +75,108 @@ public class deldialog : MonoBehaviour
                     text.text += sm[tir];
                 }
 
-                tir += 1; if (s.Length > tir2)
-                {
-                    if (s[tir2].Length <= tir)
-                    {
-                        tir2 += 1;
-                        tir = 0;
 
-                        act = false;
-                    }
-                }
-                else if (sm.Length <= tir)
-                {
-                    tir2 += 1;
-                    tir = 0;
-
-                    act = false;
-                }
-                else if (sm.Length <= tir && sm[0] != 's' && sm[1] != '2' && sm[2] != '-')
-                {
-                    tir2 += 1;
-                    tir = 0;
-
-                    act = false;
-                }
-                else if (sm == "s2-resset()")
-                {
-                    stopPlayer = false;
-                    tir2 = 0;
-                    tir = 0;
-
-
-                }
-                else if (sm == "s2-attack()")
-                {
-                    stopPlayer = false;
-                    tir2 = 0;
-                    tir = 0;
-                    VarSave.SetBool(delattack, true);
-
-                }
-                
-                else if (sm == "s2-attackforse()")
-                {
-                    stopPlayer = false;
-
-
-                    VarSave.SetBool(delattack, true);
-
-                }
-                else if (sm == "s2-attackforse().")
-                {
-                    stopPlayer = false;
-
-
-                    VarSave.SetBool(delattack, true);
-
-                }
-                else if (sm == "s2-resset().")
-                {
-                    stopPlayer = false;
-                    tir2 = 0;
-                    tir = 0;
-
-
-                }
-                else if (sm == "s2-attack().")
-                {
-                    stopPlayer = false;
-                    tir2 = 0;
-                    tir = 0;
-                    VarSave.SetBool(delattack, true);
-
-                }
-                else if (sm == "s2-Shop()")
-                {
-                    stopPlayer = false;
-                    Instantiate(Resources.Load<GameObject>("ui/shop/" + delattack));
-                    tir2 = 0;
-                    tir = 0;
-                }
-                
-                else if (sm == "s2-Shop().")
-                {
-                    stopPlayer = false;
-                    Instantiate(Resources.Load<GameObject>("ui/shop/" + delattack));
-                    tir2 = 0;
-                    tir = 0;
-                }
-
-
-
+                tir += 1;
+                NewMethod(sm, s);
 
                 tic = 0;
             }
         }
     }
-    
+
+    private void NewMethod(string sm, string[] s)
+    {
+        if (s.Length > tir2)
+        {
+            if (s[tir2].Length <= tir)
+            {
+                tir2 += 1;
+                tir = 0;
+
+                act = false;
+            }
+        }
+        else if (sm.Length <= tir)
+        {
+            tir2 += 1;
+            tir = 0;
+
+            act = false;
+        }
+        else if (sm.Length <= tir && sm[0] != 's' && sm[1] != '2' && sm[2] != '-')
+        {
+            tir2 += 1;
+            tir = 0;
+
+            act = false;
+        }
+        else if (sm == "s2-resset()")
+        {
+            stopPlayer = false;
+            tir2 = 0;
+            tir = 0;
+
+
+
+        }
+        else if (sm == "s2-attack()")
+        {
+            stopPlayer = false;
+            tir2 = 0;
+            tir = 0;
+            VarSave.SetBool(delattack, true);
+
+        }
+
+        else if (sm == "s2-attackforse()")
+        {
+            stopPlayer = false;
+
+
+            VarSave.SetBool(delattack, true);
+
+        }
+        else if (sm == "s2-attackforse().")
+        {
+            stopPlayer = false;
+
+
+            VarSave.SetBool(delattack, true);
+
+        }
+        else if (sm == "s2-resset().")
+        {
+            stopPlayer = false;
+            tir2 = 0;
+            tir = 0;
+
+
+        }
+        else if (sm == "s2-attack().")
+        {
+            stopPlayer = false;
+            tir2 = 0;
+            tir = 0;
+            VarSave.SetBool(delattack, true);
+
+        }
+        else if (sm == "s2-Shop()")
+        {
+            stopPlayer = false;
+            Instantiate(Resources.Load<GameObject>("ui/shop/" + delattack));
+            tir2 = 0;
+            tir = 0;
+        }
+
+        else if (sm == "s2-Shop().")
+        {
+            stopPlayer = false;
+            Instantiate(Resources.Load<GameObject>("ui/shop/" + delattack));
+            tir2 = 0;
+            tir = 0;
+        }
+    }
+
     void Update()
     {
         if (VarSave.EnterFloat("lenguage_english"))

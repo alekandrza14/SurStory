@@ -1,6 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class save_suniverse_scene
+{
+    public Vector3 pos;
+
+}
+public class save_suniverse
+{
+    public int scene;
+    public static bool insystem;
+    public static bool ineditor;
+    public static bool issave;
+    public void load(int i)
+    {
+        SceneManager.LoadScene(i);
+    }
+}
 
 public class Chara_move : MonoBehaviour
 {
@@ -18,16 +37,44 @@ public class Chara_move : MonoBehaviour
     public GameObject jo;
     bool ismowe;
     public float speed;
+    public save_suniverse_scene sss = new save_suniverse_scene();
+    public save_suniverse ss = new save_suniverse();
+
     void Start()
     {
+#if UNITY_EDITOR
+        save_suniverse.ineditor = true;
+#endif
         sr = GetComponent<SpriteRenderer>();
         rig = GetComponent<Rigidbody2D>();
         time3 = PlayerPrefs.GetInt("time", 0);
+        if (File.Exists("sss/_" + SceneManager.GetActiveScene().buildIndex + "/save.json") && save_suniverse.insystem)
+        {
+            sss = JsonUtility.FromJson<save_suniverse_scene>(File.ReadAllText("sss/_" + SceneManager.GetActiveScene().buildIndex + "/save.json"));
+            transform.position = sss.pos;
+            if (true)
+            {
+
+
+                save_suniverse.insystem = false;
+            }
+        }
+        if (File.Exists("sss/_" + SceneManager.GetActiveScene().buildIndex + "/save.json") && save_suniverse.ineditor)
+        {
+            Debug.Log("ус");
+            sss = JsonUtility.FromJson<save_suniverse_scene>(File.ReadAllText("sss/_" + SceneManager.GetActiveScene().buildIndex + "/save.json"));
+            transform.position = sss.pos;
+            if (true)
+            {
+                save_suniverse.ineditor = false;
+            }
+        }
     }
 
     
     void Update()
     {
+       
         time3++;
         rig.velocity = Vector2.zero;
         PlayerPrefs.SetInt("time", time3);
@@ -41,11 +88,21 @@ public class Chara_move : MonoBehaviour
             Application.Quit();
         }
         timer++;
-      
-       
-           
-            
-                rig.velocity += new Vector2(jo.transform.localPosition.x * speed, jo.transform.localPosition.y * speed);
+        if (save_suniverse.issave)
+        {
+
+
+            sss.pos = transform.position;
+            Directory.CreateDirectory("sss/_" + SceneManager.GetActiveScene().buildIndex);
+            File.WriteAllText("sss/_" + SceneManager.GetActiveScene().buildIndex + "/save.json", JsonUtility.ToJson(sss));
+            ss.scene = SceneManager.GetActiveScene().buildIndex;
+            Directory.CreateDirectory("ss/_");
+            File.WriteAllText("ss/" + "_save.json", JsonUtility.ToJson(ss));
+            save_suniverse.issave = false;
+        }
+
+
+            rig.velocity += new Vector2(jo.transform.localPosition.x * speed, jo.transform.localPosition.y * speed);
            
             
       
